@@ -1,0 +1,27 @@
+.item p{display:inline-block;}
+.home{
+    text-align: left;
+    width:20%;
+}
+.about{
+    text-align: right;
+    margin: 0 12px;
+}
+.portfolio{
+    text-align: right;
+    margin: 0 12px;
+}
+.Projects{
+    text-align: right;
+    margin: 0 12px;
+}
+.Contact{
+    text-align: right;
+    margin: 0 12px;
+}
+banner{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 0 2rem 0;
+}
