@@ -255,12 +255,11 @@ function SendMail(){
         email_id : document.getElementById("email_id").value,
         subject : document.getElementById("subject").value,
         message : document.getElementById("message").value
-    }
+    };
     emailjs.send("service_1ondb4n", "template_vwwaed8", params)
-    .then(function (response){
-        // alert("Success! " + res.status);
-        // alert("Your message has been sent successfully!");
-        swal("Success!", "Your message has been sent!", "success");
-    });
-
+        .then(function (response){
+            // alert("Success! " + res.status);
+            // alert("Your message has been sent successfully!");
+            swal("Success!", "Your message has been sent!", "success");
+        });
 }
