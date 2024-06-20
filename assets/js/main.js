@@ -263,6 +263,4 @@ function SendMail(){
         swal("Success!", "Your message has been sent!", "success");
     });
 
-    return false;
-
 }
