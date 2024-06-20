@@ -8,11 +8,3 @@
 - The favicon generator is [favicon.io](https://favicon.io/favicon-generator/)
 - Online meeting integration by [Calendly](https://calendly.com/)
 
-### Landing Page Light
-
-![preview img](./assets/snaps/light.png)
-
-### Landing Page Dark
-
-![preview img](./assets/snaps/dark.png)
-
