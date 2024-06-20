@@ -256,14 +256,9 @@ function SendMail(){
         subject : document.getElementById("subject").value,
         message : document.getElementById("message").value
     }
-    emailjs.send('service_1ondb4n', 'template_vwwaed8', params)
-    .then(function(response){
-        console.log('Email sent!', response);
-        alert('Your message has been sent successfully!');
-        // Optionally, you can display a success message using SweetAlert or any other method.
-    }, function(error) {
-        console.error('Email not sent:', error);
-        alert('Oops! Something went wrong.');
-        // Handle errors - display an error message to the user
-    });
+    emailjs.send("service_1ondb4n", "template_vwwaed8", params).then(function (res){
+        // alert("Success! " + res.status);
+        // alert("Your message has been sent successfully!");
+        swal("Success!", "Your message has been sent!", "success");
+    })
 }
