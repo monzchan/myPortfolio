@@ -249,7 +249,7 @@ function SendMail(){
         swal("Sorry!", "Please fix the errors to send a message!", "warning");
         return false;
     }
-
+    // Get form data
     var params = {
         from_name : document.getElementById("fullName").value,
         email_id : document.getElementById("email_id").value,
@@ -261,5 +261,8 @@ function SendMail(){
         // alert("Success! " + res.status);
         // alert("Your message has been sent successfully!");
         swal("Success!", "Your message has been sent!", "success");
-    })
+    });
+
+    return false;
+
 }
